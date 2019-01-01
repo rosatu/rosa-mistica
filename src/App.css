@@ -15,7 +15,7 @@ img {
 }
 
 .nav-wrap {
-  background: green;
+  background: #0080FF;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -44,7 +44,16 @@ img {
   margin: 30px 30px 0 30px;
 }
 
-.img {
-  height: 20px;
-  width: 20px;
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
