@@ -11,6 +11,25 @@ export default class About extends Component{
 
         <p>Frank and Christina are available on site. Making your stay easy, relaxing, and fun is their top priority, and they can’t wait to meet you.</p>
 
+        <h1>Location and Activities</h1>
+
+        <p>Montañita is a magical place known for its sunsets, surfing, and relaxed bohemian lifestyle. Enjoy its fine sand beaches and surfing or have a night out sampling the town’s vibrant restaurants and nightlife.</p>
+
+        <p>There are many activities to enjoy, including:</p>
+        <ol>
+          <li>Surfing</li>
+          <li>Yoga</li>
+          <li>
+            Waterfall day trip
+          </li>
+          <li>
+            Visiting nearby village Manglaralto (you can walk there!)
+          </li>
+          <li>
+            ..and of course, eating and drinking (ceviche, anyone?)
+          </li>
+        </ol>
+        <p>Frank and Christina are available to help you plan your activities and connect with local guides. </p>
         </React.Fragment>
     )
   }
