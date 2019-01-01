@@ -10,6 +10,7 @@ export default class Nav extends Component{
           <Link to="/" className="nav-link"><li className="nav-item">Home</li></Link>
           <Link to="/about" className="nav-link"><li className="nav-item">About</li></Link>
           <Link to="/gallery" className="nav-link"><li className="nav-item">Gallery</li></Link>
+          <Link to="/accomodations" className="nav-link"><li className="nav-item">Accomodations</li></Link>
         </ul>
       </React.Fragment>
     )

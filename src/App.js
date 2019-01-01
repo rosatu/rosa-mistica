@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 import About from './components/About'
 import GridImg from './components/Grid'
 import Home from './components/Home'
+import Accomodations from './components/Accomodations'
 import {Switch, Route} from 'react-router-dom'
 
 
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path="/about" component={About} />
             <Route path="/gallery" component={GridImg} />
             <Route exact path="/" component={Home} />
+            <Route exact path="/accomodations" component={Accomodations} />
           </Switch>
         </div>
       </div>
